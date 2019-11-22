@@ -40,4 +40,11 @@ namespace cli
             const std::string & f_args,
             bool f_debug
             );
+
+    void printZshCompletions(
+            std::vector<std::shared_ptr<ArgParse::ParsedElement> > & f_candidates,
+            ArgParse::ParsedElement & f_parseTree,
+            const std::string & f_args,
+            bool f_debug
+            );
 }
